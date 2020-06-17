@@ -41,10 +41,8 @@ There are other files which can come in handy:
 * **uelinks.csv** - maps units to events;
 * finally there are files containing references to books and index of terms in different languages;
 ## User Tasks & Goals
-* What are the user tasks?
-* What would users like to see/get from the dataset?
 
-Main idea is to get an overview of Belgian campaign (which the Battle of Waterloo is the end point of), see complex very road-dependant logistics of the era, get sence of scale of the events;
+Main idea is to give an overview of Belgian campaign (which the Battle of Waterloo is the end point of), see complex very road-dependant logistics of the era, demonstrate scale of the events;
 
 <img src="https://github.com/jku-icg-classroom/infovis-lab-project-2020-waterloo/blob/master/test_small.gif" alt="animated map"/>
 
