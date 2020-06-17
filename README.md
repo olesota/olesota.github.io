@@ -1,35 +1,3 @@
-# InfoVis Lab Project
-Submission template for the InfoVis lab project at the Johannes Kepler University Linz.
-
-**Explanation:**
-This `README.md` needs to be pushed to Github for each of the 3 delivery dates.
-For every submission change/extend the corresponding sections by replacing the [TODO] markers.
-*In order to meet the deadlines make sure you push everything to your Github repository.*
-For more details see [*Moodle page*](https://moodle.jku.at/jku/course/view.php?id=9291).
-
-**Tip:** Make yourself familiar with [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-# Submission due on 22.04.2020
-
-## General Information
-
-**Project Name:** Waterloo
-
-**Group Members**
-
-| Student ID    | First Name  | Last Name      |
-| --------------|-------------|----------------|
-| k11747899        | Oleg      | Lesota         |
-| k11737898        | Santa      | Pile       |
-
-## Dataset
-
-* What is the dataset about?
-* Where did you get this dataset from (i.e., source of the dataset)?
-* How was the dataset generated?
-* What is dataset size in terms of nodes, items, rows, columns, ...?
-* How is the dataset structured?
-
 ### Context
 Battle of Waterloo (18 June 1815) is significant in many respects. It was the last grand battle of Emperor Napoleon, who just escaped from his exile on Elba (26 February 1815) in order to defeat coalition of United Kingdom, Prussia, Austria and Russia one by one, before they managed to consolidate their forces. At Waterloo Napoleon (left) faced British forces lead by Duke of Wellington (middle) who were desperately trying to unite with Prussian army under command of Generalfeldmarschal Blücher (right);
 
@@ -88,14 +56,6 @@ We plan to create a visualization consisting of two views:
 * A timeline showing number of moving units for each hour, for each side. Four key battles are marked on the timeline. Timeline also works as a unit filter by battle event and by brigade (each side had a number of brigade) e.g. "show only movement of units belonging to 2nd Brigade of British forces", or "show only movement of units participated in Quatre Bras battle";
 * A map, similar to animation above. The map will have buttons to move one step backward/forward in time (animated transitions), provide information about units on screen as a tooltip;
 
-# Submission due on 13.05.2020
-
-## Proposed Dashboard Solution
-
-* Which type of visualizations did you use?
-* Explain why you chose these visualizations?
-* Add sketches or images if possible
-
 ### Visualization types
 For our dashboard, as stated above, we selcted two visualizations:
 
@@ -108,7 +68,6 @@ For our dashboard, as stated above, we selcted two visualizations:
 
 * Buttons forward/backward to move selector along the timeline one step left or right and adapt map visualization accordingly to display actual forces arrangement for the time step;
 * Click on any point of the time line to see corresponding forces arrangement. Important! In order to provide logical and smooth transition the state of the map needs to change step by step, showing all the intermediate states between current and selected state. It will create sense of progression through time.
-* Unit tracking. If at any time user selects a group of units on the map (with a selection frame) they will then be able to track position change of only those units through the whole time period (optionally those units + their parent super-units)
 
 ### Optional Addons
 
@@ -119,15 +78,8 @@ For our dashboard, as stated above, we selcted two visualizations:
 
 * Overview of the campaign, education;
 * Finding trends in unit movements;
-* Tracking a group of units: from which part of the region did the units arrive to fight in a certain location;
-
-# Submission due on 17.06.2020
 
 ## Implementation Details
-
-* How did you implement the dashboard?
-* Which external libraries and/or resources did you use?
-* Additional information about the implementation
 
 Our dashboard consists of two connected visualizations. Each of them is implemented as an SVG element, controlled by means of D3.js library. The user can interact with the dashboard using playback buttons and the visualizations themselves
 
@@ -187,8 +139,6 @@ Final version of the interface:
 
 
 ## Conclusion
-
-* What is your conclusion?
 
 * We developed a tool illustrating Belgian campain of Napoleon, a significant chain of events in world history. It allows to closer study and understand particular events and also warfare reality of the period in general.
 While it is very useful for people with prior knowledge (for research and demonstartion) it can be lacking annotation for people learning from scratch. With that in mind we established two directions for future work:
