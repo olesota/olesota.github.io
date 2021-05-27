@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Waterloo</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+
+<body>
+    <div class=container>
+        <h1 class="hw_header">Interactive Waterloo</h1>
+        <span class="date">Number of active units per army hourly in June 1815:</span>
+        <div id="timeline" class="div-timeline"></div>
+        <div id="controls" class="controls">
+            <button type="button" id="btnPrev">Backwards</button>
+            <button type="button" id="btnPlay">Play</button>
+            <button type="button" id="btnNext">Forwards</button>
+        </div>
+        <div id="map" class="div-map"></div>
+    </div>
+    <!-- include D3 library -->
+    <script src="./web_modules/d3/d3.js"></script>
+    <!-- include the main script -->
+    <script src="./src/main.js" defer async></script>
+</body>
+
+</html>
