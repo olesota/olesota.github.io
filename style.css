@@ -11,6 +11,7 @@
     color: #582404
 }
 
-div.toy:hover{
+div.toy:active{
     background-color: burlywood;
+    color: #ab0202;
 }
