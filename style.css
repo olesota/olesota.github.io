@@ -1,0 +1,16 @@
+.toy {
+    width: 160px;
+    height: 40px;
+    margin: auto;
+    background-color: blanchedalmond;
+    /*padding: 2px;*/
+    justify-content: center;
+    border-radius: 8px;
+    padding-top: 1pt;
+    padding-left: 3px;
+    color: #582404
+}
+
+div.toy:hover{
+    background-color: burlywood;
+}
