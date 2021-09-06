@@ -11,7 +11,16 @@
     color: #582404
 }
 
-div.toy:hover, div.toy:active {
+div.toy:active {
     background-color: rgb(234, 167, 80);
     color: #ab0202;
 }
+
+.delayed {
+    transition: all 0.2s;
+    transition-delay: 100ms;
+  }
+
+  .delayed:active {
+    transition: none;
+  }
